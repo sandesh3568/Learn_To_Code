@@ -13,7 +13,7 @@ int main()
     }
     else if (n==2) {
         cout<<"two\n";
-    }
+    }   
     else if (n==3) {
         cout<<"three\n";
     }
