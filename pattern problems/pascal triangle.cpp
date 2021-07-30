@@ -7,7 +7,7 @@ int main()
      cin>>n;
     
     int coef=1;
-    for(int i=0;i<n;i++) {
+    for(int i=0;i<n;i++) { 
          for(int space=1;space<=n-i;space++) {
                cout<<"  ";
          }
