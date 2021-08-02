@@ -9,7 +9,7 @@ int binarySearch(int arr[],int n,int key) {
         mid=(s+e)/2; 
     }
     if(arr[mid]==key) {
-        return mid;5
+        return mid;
     }
     else if(arr[mid]>key) {
         e=mid-1;
@@ -18,6 +18,7 @@ int binarySearch(int arr[],int n,int key) {
         s=mid+1;
     }
     return -1;
+    
 }
 
 int main() {

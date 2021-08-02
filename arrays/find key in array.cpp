@@ -7,7 +7,7 @@ int indexsearch(int array[],int key,int n) {
         return i;
     }
  }
-        return 5;
+        return -1;
 }
 
 int main() {
